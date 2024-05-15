@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/SideBar.css';
+import '../assets/styles/SideBar.css';
 import icon1 from '../assets/icons/1.png';
 import icon2 from '../assets/icons/2.png';
 import icon3 from '../assets/icons/3.png';

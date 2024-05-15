@@ -2,6 +2,7 @@ import './App.css';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TopNav from './components/TopNav';
 import SideBar from './components/SideBar';
+import LandingPage from './components/pages/LandingPage';
 
 function App() {
   const theme = createTheme({
@@ -17,6 +18,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <TopNav />
         <SideBar />
+        <LandingPage />
       </ThemeProvider>
     </div>
   );

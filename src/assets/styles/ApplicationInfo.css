@@ -1,0 +1,14 @@
+.application-info-container {
+  margin: 10px;
+}
+
+.application-info-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.chart-time {
+    right: 2px;
+    position: absolute;
+}
