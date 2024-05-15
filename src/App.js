@@ -1,7 +1,7 @@
 import './App.css';
-import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TopNav from './components/TopNav';
+import SideBar from './components/SideBar';
 
 function App() {
   const theme = createTheme({
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <TopNav />
-        <Button variant='contained'>sdfef</Button>
+        <SideBar />
       </ThemeProvider>
     </div>
   );
