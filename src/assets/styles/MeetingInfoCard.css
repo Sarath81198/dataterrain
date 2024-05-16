@@ -1,0 +1,102 @@
+.meeting-info-card-container {
+  width: 809.25px;
+  border: 1px solid #a9a9a9;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  height: 330px;
+}
+
+.meeting-card-section1 {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.candidate-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #0a66c2;
+}
+
+.meeting-card-avatar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.meeting-info-candidate-name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.meeting-info-candidate-position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.meeting-card-avatar {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.meeting-info-time-section {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 15px;
+}
+
+.meeting-info-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meeting-info-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.meeting-info-schedule-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #0a66c2;
+  margin: 10px;
+}
+
+.meeting-info-row {
+  display: flex;
+  width: 520px;
+  text-align: left;
+}
+
+.meeting-info-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.meeting-info-column {
+    width: 50%;
+    margin: 25px 0px 0px 25px;
+}
+
+.meeting-info-card-schedule-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    height: 130px;
+}

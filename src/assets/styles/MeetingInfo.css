@@ -1,0 +1,6 @@
+.meeting-info {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-color: #0a66c2;
+  scrollbar-width: thin;
+}

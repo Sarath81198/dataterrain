@@ -1,0 +1,19 @@
+.todays-info-container {
+  margin: 0px 35px 0px 0px;
+}
+
+.todays-info-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.todays-info-title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.meeting-info-container {
+    padding: 20px 20px 0px 20px;
+}
