@@ -31,7 +31,6 @@ function ActivityList() {
             <ListView
                 title='Activity'
                 hasProfileAvatar={true}
-                hasActionButton={true}
                 hasTitleSubTextHighlight={true}
                 actionButtonProps={{
                     variant: 'contained',

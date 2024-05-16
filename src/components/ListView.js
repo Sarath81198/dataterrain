@@ -25,7 +25,7 @@ function ListView({
                 </div>
             </div>
             {
-                list.map(data => (
+                list && list.map(data => (
                     <div className="list-view-row">
                         <div className="list-view-column asset-space">
                             {
@@ -56,7 +56,7 @@ function ListView({
                         </div>
                         <div className="list-view-column action-space">
                             {
-                                hasActionButton ? <Button {...actionButtonProps}>{actionButtonProps.value}</Button> : null
+                                hasActionButton && <Button {...actionButtonProps}>{actionButtonProps && actionButtonProps.value}</Button>
                             }
                         </div>
                     </div>
