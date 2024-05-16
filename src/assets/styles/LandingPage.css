@@ -13,11 +13,11 @@
 }
 
 .left-section {
-  width: 1400px;
+  width: 1300px;
 }
 
 .right-section {
-  width: 350px;
+  width: 450px;
   display: flex;
   flex-direction: column;
 }

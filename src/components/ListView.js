@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 function ListView({
     title = '',
     isTimeEvent = false,
-    hasProfileAvatar = true,
+    hasProfileAvatar = false,
     hasActionButton,
     hasSubTitleSubTextHighlight,
     hasTitleSubTextHighlight,
@@ -34,7 +34,18 @@ function ListView({
                             }
                             {
                                 isTimeEvent && !hasProfileAvatar &&
-                                <div></div>
+                                <div className="time-month-container" style={{
+                                    backgroundColor: data?.active ? "#d5e5ee" : "#e1e1e1",
+                                    color: data?.active ? "#0B74AD" : 'black'
+
+                                }}>
+                                    <div className="date">
+                                        {data.date}
+                                    </div>
+                                    <div className="month">
+                                        {data.month}
+                                    </div>
+                                </div>
                             }
                         </div>
                         <div className="list-view-column info-space">

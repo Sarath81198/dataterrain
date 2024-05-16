@@ -33,6 +33,7 @@ function HiringList() {
         <div>
             <ListView
                 title='Hiring Candidate'
+                hasProfileAvatar={true}
                 hasActionButton={true}
                 list={mockData}
                 hasActionButton={true}

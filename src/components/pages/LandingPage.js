@@ -11,6 +11,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import ActivityList from '../landingPage/ActivityList';
 import HiringList from '../landingPage/HiringList';
+import UpcomingsList from '../landingPage/UpcomingsList';
 
 function LandingPage() {
   return (
@@ -38,6 +39,7 @@ function LandingPage() {
             </LocalizationProvider>
           </div>
           <div className='activity-list'>
+            <UpcomingsList />
             <ActivityList />
             <HiringList />
           </div>
