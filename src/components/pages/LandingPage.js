@@ -1,9 +1,14 @@
 import React from 'react';
+import dayjs from 'dayjs';
 import '../../assets/styles/LandingPage.css';
 import Head from '../landingPage/Head';
 import ApplicationInfo from '../landingPage/ApplicationInfo';
 import NewAssesment from '../landingPage/NewAssesment';
 import TodaysInfo from '../landingPage/TodaysInfo';
+import { StaticDateRangePicker } from '@mui/x-date-pickers-pro/StaticDateRangePicker';
+import { pickersLayoutClasses } from '@mui/x-date-pickers/PickersLayout';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 function LandingPage() {
   return (
@@ -17,7 +22,18 @@ function LandingPage() {
         <div className='left-section'>
           <TodaysInfo />
         </div>
-        <div className='right-section'>s</div>
+        <div className='right-section'>
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <StaticDateRangePicker
+              defaultValue={[dayjs('2022-04-17'), dayjs('2022-04-21')]}
+              sx={{
+                [`.${pickersLayoutClasses.contentWrapper}`]: {
+                  alignItems: 'center',
+                },
+              }}
+            />
+          </LocalizationProvider>
+        </div>
       </div>
     </div>
   );
