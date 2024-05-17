@@ -6,25 +6,29 @@ const mockData = [
         title: 'John Doe',
         subTitle: 'Senior Developer',
         line3: 'Hired by Stella',
-        imgSrc: 'https://avatar.iran.liara.run/public/girl'
+        imgSrc: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     },
     {
         title: 'John Doe',
         subTitle: 'Senior Developer',
         line3: 'Hired by Stella',
-        imgSrc: 'https://avatar.iran.liara.run/public/boy'
+        imgSrc: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     },
     {
         title: 'John Doe',
         subTitle: 'Senior Developer',
         line3: 'Hired by Stella',
-        imgSrc: 'https://avatar.iran.liara.run/public/boy'
+        imgSrc: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     },
     {
         title: 'John Doe',
         subTitle: 'Senior Developer',
         line3: 'Hired by Stella',
-        imgSrc: 'https://avatar.iran.liara.run/public/girl'
+        imgSrc: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     }
 ];
 

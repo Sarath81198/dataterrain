@@ -16,7 +16,8 @@ const mockData = [
         l2Interviewer: 'Smith',
         l3Interviewer: 'Stephan',
         attendees: 'Johnson',
-        img: 'https://avatar.iran.liara.run/public/boy'
+        img: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     },
     {
         name: 'Tina',
@@ -31,7 +32,8 @@ const mockData = [
         l2Interviewer: 'Smith',
         l3Interviewer: 'Stephan',
         attendees: 'Johnson',
-        img: 'https://avatar.iran.liara.run/public/girl'
+        img: `https://api.multiavatar.com/${Math.floor(Math.random() * 10)}.svg`
+
     }
 ];
 function MeetingInfo() {
