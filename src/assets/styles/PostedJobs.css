@@ -1,0 +1,79 @@
+.posted-jobs-container {
+  margin-top: 60px;
+}
+
+.posted-jobs-tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.posted-job-tab {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  width: 25%;
+}
+
+.job-card {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.posted-job-body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-card-title {
+  display: flex;
+}
+
+.job-card-img {
+  height: 25px;
+  width: 25px;
+}
+
+.job-card-name {
+  margin-left: 20px;
+}
+
+.job-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+.job-card-count-container {
+  width: 100px;
+  height: 80px;
+  background-color: #0a66c2;
+  border-radius: 3px;
+}
+
+.job-card-count {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.job-card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 10px;
+}

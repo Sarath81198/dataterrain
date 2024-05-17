@@ -1,0 +1,41 @@
+.common-section-container {
+  margin: 35px 35px 0px 0px;
+  padding: 30px;
+}
+
+.common-section-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.common-section-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  padding-right: 100px;
+}
+
+.common-section-view {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: underline;
+  color: #0a66c2;
+}
+
+.common-section-head-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.common-section-head-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

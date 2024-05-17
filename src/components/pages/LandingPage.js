@@ -12,6 +12,8 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import ActivityList from '../landingPage/ActivityList';
 import HiringList from '../landingPage/HiringList';
 import UpcomingsList from '../landingPage/UpcomingsList';
+import PostedJobs from '../landingPage/PostedJobs';
+import CandidateStatus from '../landingPage/CandidateStatus';
 
 function LandingPage() {
   return (
@@ -24,6 +26,8 @@ function LandingPage() {
       <div className='section3-container'>
         <div className='left-section'>
           <TodaysInfo />
+          <PostedJobs />
+          <CandidateStatus />
         </div>
         <div className='right-section'>
           <div className='date-picker'>
